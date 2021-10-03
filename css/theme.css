@@ -21,13 +21,15 @@ body{
 
 .content{
     width: 80%;
-    max-width: 1700px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 .header {
     background-color: var(--primary);
     justify-content: center;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 5px 15px 25px #000000;
 }
 
 #menu-bar{
@@ -90,4 +92,70 @@ body{
 .footer-content{
     display:flex;
     justify-content: flex-end;
+}
+
+.download-section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.gradient{
+    background: var(--bodycolor);
+    background: linear-gradient(0deg, var(--bodycolor)0%, var(--primary) 100%);
+}
+
+.download-section .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+
+.download-section .left{
+    display: flex;
+    flex-direction: column;
+    width: 59%;
+    height: inherit;
+}
+.download-button{
+    height: 50px;
+    margin: 4px;
+    margin-left: -12px;
+}
+
+.black-button{
+    background-color: black;
+    height: 58px;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;;
+}
+
+.googleplay{
+    height: 90px;
+}
+
+.center{
+    display: flex;
+    align-self: center;
+}
+
+.cellphone-print{
+    height: 650px;
+    width: auto;
+    align-self: center;
+}
+
+.white {
+    color: white;
+}
+
+.app-description {
+    text-align: justify;
+    font-size: 21px;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
