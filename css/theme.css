@@ -267,3 +267,21 @@ body{
 .att-section .content p, .att-section .content ul li {
     font-size: 1.5rem;
 }
+
+.info-section .content{
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section .content h1{
+    width: fit-content;
+    font-size: 2rem;
+}
+
+.info-section .content p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
