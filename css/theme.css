@@ -21,6 +21,7 @@ a:link, a:active{
 
 body{
     background-color: var(--bodycolor);
+    padding-bottom: 70px;
 }
 
 .content{
@@ -88,7 +89,7 @@ body{
 }
 
 .footer{
-    position: sticky;
+    position: fixed;
     bottom: 0px;
     width: 100%;
 }
@@ -187,6 +188,13 @@ body{
     width: 150px
 }
 
+.att-section .content input{
+    margin-top: 35px;
+    font-size: 1.35rem;
+    height: 50px;
+    width: 250px
+}
+
 .sobre-section p {
     font-size: 1.3rem;
 }
@@ -237,4 +245,25 @@ body{
     text-align: center;
 }
 
+.att-section .content{
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.att-section .content p, .att-section .content h1, .att-section .content ul li{
+    width:fit-content;
+} 
+
+.att-section .content h1 {
+    font-size: 2rem;
+}
+
+.att-section .content p {
+    margin-top: 30px;
+}
+
+.att-section .content p, .att-section .content ul li {
+    font-size: 1.5rem;
+}
