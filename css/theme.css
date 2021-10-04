@@ -15,6 +15,10 @@
     font-weight: 400;
 }
 
+a:link, a:active{
+    text-decoration: none;
+}
+
 body{
     background-color: var(--bodycolor);
 }
@@ -29,7 +33,7 @@ body{
     background-color: var(--primary);
     justify-content: center;
     border-bottom: 1px solid black;
-    box-shadow: 5px 5px 15px 25px #000000;
+    box-shadow: 5px 5px 15px 5px gray;
 }
 
 #menu-bar{
@@ -41,7 +45,7 @@ body{
 #menu-bar li {
     color: var(--primaryfont);
     padding: 18px;
-    font-size: 20px;
+    font-size: 1.35rem;
     text-align: center;
     align-items: center;
     display: flex;
@@ -57,7 +61,7 @@ body{
     color: var(--highlightfont);
     background-color: var(--highlight);
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1.35rem;
 }
 
 .row{
@@ -84,7 +88,7 @@ body{
 }
 
 .footer{
-    position: absolute;
+    position: sticky;
     bottom: 0px;
     width: 100%;
 }
@@ -133,6 +137,11 @@ body{
     align-items: center;;
 }
 
+.black-button label {
+    font-size: 1.36rem;
+    cursor: pointer;
+}
+
 .googleplay{
     height: 90px;
 }
@@ -154,8 +163,78 @@ body{
 
 .app-description {
     text-align: justify;
-    font-size: 21px;
+    font-size: 1.5rem;
     margin: 20px;
     margin-top: 0px;
     margin-bottom: 30px;
 }
+
+.sobre-section, .section-whoarewe{
+    display: flex;
+}
+
+.sobre-section .content, .section-whoarewe .content{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.sobre-section .content input{
+    margin-top: 35px;
+    font-size: 1.35rem;
+    height: 50px;
+    width: 150px
+}
+
+.sobre-section p {
+    font-size: 1.3rem;
+}
+
+.titulo{
+    font-size: 2rem;
+}
+
+.texto{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+
+#profiles{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile{
+    position:relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 350px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.profile a{
+    position: absolute;
+    bottom: 4px;
+}
+
+.profile p {
+    margin: 15px;
+    text-align: center;
+}
+
+
