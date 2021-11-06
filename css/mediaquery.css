@@ -1,0 +1,69 @@
+@media(max-width: 850px) {
+    .header div{
+        flex-direction: column;
+    }
+
+    #menu-bar li a {
+        font-size: 15px;
+    }
+
+    #menu-bar li{
+        padding: 10px;
+    }
+
+    #logo{
+        margin-top: 15px;
+        width:75px
+    }
+
+    .social-media-icon{
+        width:40px;
+        padding: 3px;
+    }
+
+    p{
+        font-size: 1rem !important;
+    }
+
+    h1{
+        font-size: 1.1rem !important;
+    }
+    
+    ul li{
+        font-size: 1rem !important;
+    }
+
+    .att-section .content input {
+        font-size: 1rem !important;
+        width:150px
+    }
+
+}
+
+@media(max-width: 340px) {
+    #menu-bar li a {
+        font-size: 13px;
+    }
+
+    #menu-bar li{
+        padding: 7px;
+    }
+
+    p{
+        font-size: 1rem !important;
+    }
+
+    h1{
+        font-size: 1.1rem !important;
+    }
+    
+    ul li{
+        font-size: 1rem !important;
+    }
+
+    .att-section .content input {
+        font-size: 1rem !important;
+        width:150px
+    }
+
+}

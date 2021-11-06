@@ -3,5 +3,5 @@ function redirectSugestoes(){
 }
 
 function redirectSendEmail(){
-    document.location = "mailto:leon.lacerda2015@gmail.com";
+    document.location = "mailto:guardians.aplicativo@gmail.com";
 }

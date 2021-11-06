@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
 
 :root{
-    --bodycolor : rgb(243, 249, 245);
-    --primary : rgb(203, 229, 204);
+    --bodycolor : #efeee9;
+    --primary : #042417;
     --highlight : rgb(94, 119, 96);
-    --primaryfont : black;
+    --primaryfont : white;
     --highlightfont: white;
 }
 
@@ -12,7 +13,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
 }
 
 a:link, a:active{
@@ -34,7 +34,6 @@ body{
     background-color: var(--primary);
     justify-content: center;
     border-bottom: 1px solid black;
-    box-shadow: 5px 5px 15px 5px gray;
 }
 
 #menu-bar{
@@ -56,6 +55,7 @@ body{
 #menu-bar li a{
     color: var(--primaryfont);
     text-decoration: none;
+    font-weight: 200 !important;
 }
 
 #menu-bar li:hover{
@@ -76,7 +76,7 @@ body{
 }
 
 #logo{
-    width:150px
+    width:50px
 }
 
 .social-media-icon{
@@ -103,10 +103,7 @@ body{
     height: 500px;
     display: flex;
     flex-direction: column;
-}
-.gradient{
-    background: var(--bodycolor);
-    background: linear-gradient(0deg, var(--bodycolor)0%, var(--primary) 100%);
+    margin-top: 25px;
 }
 
 .download-section .right{
@@ -175,7 +172,7 @@ body{
 }
 
 .sobre-section .content, .section-whoarewe .content{
-    margin-top: 100px;
+    margin-top: 50px;
     display:flex;
     flex-direction: column;
     align-items: center
@@ -220,7 +217,7 @@ body{
     position:relative;
     border: 1px solid black;
     border-radius: 5px;
-    height: 350px;
+    height: 370px;
     width: 200px;
     display: flex;
     align-items: center;
@@ -249,7 +246,7 @@ body{
     padding-top: 50px;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .att-section .content p, .att-section .content h1, .att-section .content ul li{
@@ -285,3 +282,6 @@ body{
     font-size: 1.5rem;
 }
 
+#questionguy{
+    width: 500px;
+}
