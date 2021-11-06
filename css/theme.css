@@ -84,10 +84,6 @@ body{
     padding: 10px;
 }
 
-.social-media-icon:hover{
-   background-color: var(--primary);
-}
-
 .footer{
     position: fixed;
     bottom: 0px;
