@@ -7,6 +7,6 @@ function redirectSendEmail(){
 }
 
 function download(){
-    alert("Nosso projeto ainda não está disponível para download ainda, se estiver interresado veja nosso código fonte.");
+    alert("Nosso projeto ainda não está disponível para download, se estiver interessado veja nosso código fonte. Estamos abertos a sugestões, se tiver alguma entre em contato conosco.");
     document.location = "https://github.com/guardiansapp/Guardians";
 }
